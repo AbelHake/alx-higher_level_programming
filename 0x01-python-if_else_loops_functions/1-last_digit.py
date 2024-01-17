@@ -7,9 +7,6 @@ last_digit = abs(number) % 10
 
 if number < 0:
     last_digit *= -1
-message = (
-    f"Last digit of {number} is {last_digit} and is "
-    f"{'greater than 5' if last_digit > 5 else ('0' if last_digit == 0 else 'less than 6 and not 0')}"
-)
-
-print(message)
+thest = "last digit of {} is {}".format(number, last_digit)
+if last_digit > 5:
+    print(f"{thest} and is greather than 5")
