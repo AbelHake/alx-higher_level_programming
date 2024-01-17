@@ -10,3 +10,7 @@ if number < 0:
 thest = "last digit of {} is {}".format(number, last_digit)
 if last_digit > 5:
     print(f"{thest} and is greather than 5")
+elif last_digit < 6:
+    print(f"{thest} and is less than 6 and not 0")
+elif last_digit == 0:
+    print(f"{thest} and is 0")
